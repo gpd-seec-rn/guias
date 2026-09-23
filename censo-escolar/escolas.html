@@ -132,6 +132,7 @@ figcaption{font-size:15px;color:var(--texto-2);margin-top:10px;line-height:1.5}
 /* ---------- Faixas de orientação ---------- */
 .faixa{display:flex;gap:16px;padding:18px 20px;margin:28px 0;border-left:6px solid;border-radius:0 var(--raio) var(--raio) 0;color:var(--texto)}
 .faixa > .icone{width:28px;height:28px;margin-top:2px}
+.faixa > div{min-width:0;overflow-wrap:anywhere}
 .faixa p:last-child,.faixa ul:last-child,.faixa ol:last-child{margin-bottom:0}
 .faixa-titulo{display:block;font-weight:600;margin-bottom:4px}
 .faixa.dica{background:var(--dica-fundo);border-color:var(--dica-cor)} .faixa.dica > .icone{color:var(--dica-cor)}
@@ -234,13 +235,13 @@ details[open] summary{border-bottom:1px solid var(--linha)}
 
 /* ---------- Contatos (cartão de visita) ---------- */
 .contatos{display:grid;gap:16px;margin:20px 0 28px}
-.cartao-contato{display:grid;grid-template-columns:auto 1fr auto;gap:16px 20px;align-items:center;background:#fff;border:1px solid var(--linha);border-left:6px solid var(--verde);border-radius:0 var(--raio) var(--raio) 0;padding:18px 20px}
+.cartao-contato{display:grid;grid-template-columns:auto 1fr;gap:14px 20px;align-items:center;background:#fff;border:1px solid var(--linha);border-left:6px solid var(--verde);border-radius:0 var(--raio) var(--raio) 0;padding:18px 20px}
 .cartao-contato .marca{width:48px;height:48px;border-radius:50%;background:var(--petroleo-claro);color:var(--petroleo-texto);display:grid;place-items:center}
 .cartao-contato .marca .icone{width:24px;height:24px}
 .cc-canal{font-weight:600;color:var(--verde);display:block}
 .cc-valor{font-size:18px;word-break:break-word}
 .cc-uso{font-size:15px;color:var(--texto-2);display:block}
-.cc-acoes{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.cc-acoes{grid-column:2 / -1;display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-start}
 .lista-contatos{list-style:none;padding:0;margin:12px 0 24px}
 .lista-contatos li{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;padding:10px 0;border-bottom:1px solid var(--linha);margin:0}
 .lista-contatos .rotulo{font-weight:500;min-width:9em}
@@ -344,7 +345,9 @@ dialog.ampliar p{color:#fff;font-size:15px;margin:10px 0 0;text-align:center}
   .linha-tempo li{text-align:left;padding:0}
   .linha-tempo a{flex-direction:row;align-items:center;gap:14px}
   .lt-textos{align-items:flex-start}
-  .cartao-contato{grid-template-columns:auto 1fr}
+  .cartao-contato{grid-template-columns:1fr;padding:16px 14px}
+  .cartao-contato .marca{display:none}
+  .cc-valor{font-size:16px;overflow-wrap:anywhere}
   .cc-acoes{grid-column:1 / -1;justify-content:flex-start}
   .aba-duvida{top:auto;bottom:calc(20px + env(safe-area-inset-bottom,0px));right:84px;transform:none;writing-mode:horizontal-tb;border-radius:99px;padding:12px 18px;min-height:52px}
   .aba-duvida .icone{transform:none}
