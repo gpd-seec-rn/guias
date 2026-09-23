@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="GPD — Grupo de Processamento de Dados">
+  <rect width="64" height="64" rx="13" fill="#0E413A"/>
+  <path d="M32 7.5 55.5 15.5V32c0 13.5-10.2 20.3-23.5 25C18.7 52.3 8.5 45.5 8.5 32V15.5Z" fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linejoin="round"/>
+  <rect x="17.5" y="18" width="29" height="24" rx="6" fill="#5CA7AE" stroke="#FFFFFF" stroke-width="3.4"/>
+  <rect x="24" y="23.5" width="16" height="13" rx="3.5" fill="#C1C35D"/>
+  <circle cx="29" cy="28" r="2" fill="#FFFFFF"/>
+  <circle cx="35.4" cy="28" r="2" fill="#FFFFFF"/>
+  <circle cx="32.2" cy="33" r="2" fill="#FFFFFF"/>
+</svg>
