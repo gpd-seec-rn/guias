@@ -465,9 +465,10 @@ dialog.ampliar p{color:#fff;font-size:15px;margin:10px 0 0;text-align:center}
     <li><span class="no" aria-hidden="true"></span><a href="#acesso"><span class="n">2</span><span>Acessando os sistemas</span></a></li>
     <li><span class="no" aria-hidden="true"></span><a href="#passo-a-passo"><span class="n">3</span><span>Passo a passo</span></a></li>
     <li><span class="no" aria-hidden="true"></span><a href="#entradas-retiradas"><span class="n">4</span><span>Entradas e retiradas</span></a></li>
-    <li><span class="no" aria-hidden="true"></span><a href="#matricula"><span class="n">5</span><span>Matrícula e relatórios</span></a></li>
-    <li><span class="no" aria-hidden="true"></span><a href="#regras-sigeduc"><span class="n">6</span><span>Regras do Sigeduc</span></a></li>
-    <li><span class="no" aria-hidden="true"></span><a href="#ajuda"><span class="n">7</span><span>Precisa de ajuda?</span></a></li>
+    <li><span class="no" aria-hidden="true"></span><a href="#faltam"><span class="n">5</span><span>Faltam no Censo e na Base</span></a></li>
+    <li><span class="no" aria-hidden="true"></span><a href="#matricula"><span class="n">6</span><span>Matrícula e relatórios</span></a></li>
+    <li><span class="no" aria-hidden="true"></span><a href="#regras-sigeduc"><span class="n">7</span><span>Regras do Sigeduc</span></a></li>
+    <li><span class="no" aria-hidden="true"></span><a href="#ajuda"><span class="n">8</span><span>Precisa de ajuda?</span></a></li>
   </ol>
 </nav>
 
@@ -541,6 +542,7 @@ dialog.ampliar p{color:#fff;font-size:15px;margin:10px 0 0;text-align:center}
         <li>Nome do estudante: deixe idêntico ao do Censo enquanto a consulta à Receita estiver indisponível.</li>
       </ul></li>
     <li><strong>Trate as possíveis entradas e retiradas.</strong> Veja <a href="#entradas-retiradas">Entradas e retiradas</a>.</li>
+    <li><strong>Trate os casos de "Faltam no Censo" e "Faltam na Base".</strong> Veja <a href="#faltam">Faltam no Censo e na Base</a>.</li>
     <li><strong>Confirme as matrículas.</strong> Veja <a href="#matricula">Matrícula e relatórios</a>.</li>
     <li><strong>Acompanhe a aba Impacto</strong> na Zaori.</li>
     <li><strong>Guarde uma cópia dos arquivos</strong> após a homologação.</li>
@@ -572,11 +574,62 @@ dialog.ampliar p{color:#fff;font-size:15px;margin:10px 0 0;text-align:center}
     </div>
   </div>
   <div class="faixa saiba"><svg class="icone"><use href="#i-info"/></svg><div><span class="faixa-titulo">Botões de conferência</span><p>São informativos. Não reduzem o percentual.</p></div></div>
-<nav class="nav-secoes" aria-label="Navegação entre seções"><a class="botao secundario" href="#passo-a-passo"><svg class="icone"><use href="#i-seta-esq"/></svg>Seção anterior: Passo a passo</a><a class="botao proxima" href="#matricula">Próxima seção: Matrícula e relatórios<svg class="icone"><use href="#i-seta-dir"/></svg></a></nav>
+<nav class="nav-secoes" aria-label="Navegação entre seções"><a class="botao secundario" href="#passo-a-passo"><svg class="icone"><use href="#i-seta-esq"/></svg>Seção anterior: Passo a passo</a><a class="botao proxima" href="#faltam">Próxima seção: Faltam no Censo e na Base<svg class="icone"><use href="#i-seta-dir"/></svg></a></nav>
+</section>
+
+<section class="secao" id="faltam" aria-labelledby="t-faltam">
+  <div class="secao-cabeca"><span class="secao-num" aria-hidden="true">5</span><h2 id="t-faltam">Faltam no Censo e Faltam na Base</h2></div>
+  <p><span class="selo">Nova funcionalidade</span></p>
+  <p class="lead">Quando a correção não depende só da escola, peça a análise pela própria Zaori. O pedido vai para o suporte, junto com as informações que você enviar.</p>
+  <ul class="itens">
+    <li><span class="marca"><svg class="icone"><use href="#i-lista"/></svg></span><div><strong>Faltam no Censo</strong>O estudante está no Sigeduc da escola, mas não está no Educacenso dela.</div></li>
+    <li><span class="marca"><svg class="icone"><use href="#i-lista"/></svg></span><div><strong>Faltam na Base</strong>O estudante está no Educacenso da escola, mas aparece como "Não encontrado na rede".</div></li>
+  </ul>
+  <p>Os botões ficam na coluna "Ações", no fim de cada linha. Veja qual é o seu caso. Toque em cada um para abrir.</p>
+  <details>
+    <summary><svg class="icone"><use href="#i-regra"/></svg>Outra escola declarou no Censo um estudante que estava na sua escola em 27/05/2026<svg class="icone seta"><use href="#i-seta-baixo"/></svg></summary>
+    <div class="acordeao-corpo">
+      <p>Aba "Faltam no Censo", botão <strong>Vínculo equivocado</strong>. É uma contestação da declaração da outra escola.</p>
+      <ul>
+        <li>Informe o INEP e o nome da outra escola, um telefone de contato e a justificativa.</li>
+        <li>Anexe o comprovante: ficha de matrícula ou documento de transferência, em PDF, JPG ou PNG, até 5 MB.</li>
+        <li>Se o pedido for deferido, a outra escola desvincula o estudante no Educacenso, e a sua escola passa a declará-lo.</li>
+      </ul>
+    </div>
+  </details>
+  <details>
+    <summary><svg class="icone"><use href="#i-regra"/></svg>O Censo está certo, mas o Sigeduc tem uma matrícula que não deveria existir<svg class="icone seta"><use href="#i-seta-baixo"/></svg></summary>
+    <div class="acordeao-corpo">
+      <p>Aba "Faltam no Censo", botão <strong>Solicitar remoção</strong>. Exemplos: matrícula antiga que nunca foi encerrada, cadastro duplicado, estudante que nunca chegou a frequentar.</p>
+      <ul>
+        <li>Escreva uma justificativa com no mínimo 50 caracteres, explicando por que o estudante não deveria constar na base.</li>
+        <li>Se o pedido for deferido, a matrícula é inativada ou desvinculada na base.</li>
+      </ul>
+    </div>
+  </details>
+  <details>
+    <summary><svg class="icone"><use href="#i-regra"/></svg>O estudante está no Educacenso, mas não foi encontrado na rede<svg class="icone seta"><use href="#i-seta-baixo"/></svg></summary>
+    <div class="acordeao-corpo">
+      <p>Aba "Faltam na Base", botão <strong>Solicitar inclusão</strong>.</p>
+      <ul>
+        <li>Escreva uma justificativa com no mínimo 50 caracteres, explicando por que o estudante deve constar na base da sua escola.</li>
+        <li>Se o pedido for deferido, o suporte faz o vínculo do estudante com a escola.</li>
+      </ul>
+    </div>
+  </details>
+  <div class="faixa atento"><svg class="icone"><use href="#i-alerta"/></svg><div><span class="faixa-titulo">Antes de pedir</span><ul><li>Confira a situação do estudante no Sigeduc. Se ele saiu da escola e ainda está como "Matriculado", regularize primeiro: Transferido, Cancelado ou Deixou de frequentar. Pedido de desvinculação com matrícula ativa é indeferido.</li><li>Se o estudante estava em outra escola na data-base, fale com ela: é ela quem desvincula. Se houver dificuldade, a Equipe do Censo Escolar ajuda na comunicação.</li></ul></div></div>
+  <div class="faixa dica"><svg class="icone"><use href="#i-lampada"/></svg><div><span class="faixa-titulo">Mande as informações completas</span><p>Quanto mais completo o pedido, mais rápida e segura a análise. Informe:</p><ul><li>a situação do estudante no Sigeduc e a data da movimentação;</li><li>onde o estudante estava em 27/05/2026, a data-base do Censo;</li><li>as datas de entrada e de saída na sua escola;</li><li>o nome e o INEP da escola anterior ou de destino, quando houver.</li></ul><p>Exemplo: "Estudante transferido para a EE Exemplo (INEP 00000000) em 20/05/2026, antes da data-base. No Sigeduc consta como Transferido desde essa data e não frequentou mais a escola."</p></div></div>
+  <h3>Depois do pedido</h3>
+  <ul class="itens">
+    <li><span class="marca"><svg class="icone"><use href="#i-relogio"/></svg></span><div><strong>Análise</strong>O suporte analisa todos os pedidos, por ordem de chegada. Cada pedido é deferido ou indeferido.</div></li>
+    <li><span class="marca"><svg class="icone"><use href="#i-check"/></svg></span><div><strong>Faça uma nova leitura</strong>Deferir o pedido não tira o estudante do relatório. Depois da correção, baixe as planilhas de novo no Educacenso e faça uma nova leitura na Zaori.</div></li>
+    <li><span class="marca"><svg class="icone"><use href="#i-telefone"/></svg></span><div><strong>Outro caso?</strong>Dúvida, documento a enviar ou situação que não se encaixa nos botões: abra um chamado na Zaori. Veja <a href="zaori.html#chamados">Chamados</a>.</div></li>
+  </ul>
+<nav class="nav-secoes" aria-label="Navegação entre seções"><a class="botao secundario" href="#entradas-retiradas"><svg class="icone"><use href="#i-seta-esq"/></svg>Seção anterior: Entradas e retiradas</a><a class="botao proxima" href="#matricula">Próxima seção: Matrícula e relatórios<svg class="icone"><use href="#i-seta-dir"/></svg></a></nav>
 </section>
 
 <section class="secao" id="matricula" aria-labelledby="t-matricula">
-  <div class="secao-cabeca"><span class="secao-num" aria-hidden="true">5</span><h2 id="t-matricula">Confirmação de matrícula e relatórios</h2></div>
+  <div class="secao-cabeca"><span class="secao-num" aria-hidden="true">6</span><h2 id="t-matricula">Confirmação de matrícula e relatórios</h2></div>
   <p class="lead">Matrícula sem confirmação sai do Censo. Confirme todas.</p>
   <div class="faixa cuidado"><svg class="icone"><use href="#i-alerta"/></svg><div><span class="faixa-titulo">O INEP exclui automaticamente</span><ul><li>Matrículas só de AEE.</li><li>Matrículas só de atividade complementar.</li></ul><p>Essas exclusões têm impacto no FUNDEB.</p></div></div>
   <h3>Outros pontos de atenção</h3>
@@ -585,11 +638,11 @@ dialog.ampliar p{color:#fff;font-size:15px;margin:10px 0 0;text-align:center}
     <li><span class="marca"><svg class="icone"><use href="#i-ficha"/></svg></span><div><strong>Relatórios fora da Zaori</strong>A Zaori trata só estudantes nesta edição. Profissionais, jornada, infraestrutura e formação docente: confira os relatórios no Educacenso durante a retificação.</div></li>
     <li><span class="marca"><svg class="icone"><use href="#i-info"/></svg></span><div><strong>Transporte escolar</strong>Municipal ou estadual: confirme com a DIREC.</div></li>
   </ul>
-<nav class="nav-secoes" aria-label="Navegação entre seções"><a class="botao secundario" href="#entradas-retiradas"><svg class="icone"><use href="#i-seta-esq"/></svg>Seção anterior: Entradas e retiradas</a><a class="botao proxima" href="#regras-sigeduc">Próxima seção: Regras do Sigeduc<svg class="icone"><use href="#i-seta-dir"/></svg></a></nav>
+<nav class="nav-secoes" aria-label="Navegação entre seções"><a class="botao secundario" href="#faltam"><svg class="icone"><use href="#i-seta-esq"/></svg>Seção anterior: Faltam no Censo e na Base</a><a class="botao proxima" href="#regras-sigeduc">Próxima seção: Regras do Sigeduc<svg class="icone"><use href="#i-seta-dir"/></svg></a></nav>
 </section>
 
 <section class="secao" id="regras-sigeduc" aria-labelledby="t-regras-sigeduc">
-  <div class="secao-cabeca"><span class="secao-num" aria-hidden="true">6</span><h2 id="t-regras-sigeduc">Regras do Sigeduc que evitam divergência</h2></div>
+  <div class="secao-cabeca"><span class="secao-num" aria-hidden="true">7</span><h2 id="t-regras-sigeduc">Regras do Sigeduc que evitam divergência</h2></div>
   <p class="lead">Seguir estas regras no Sigeduc mantém os dados iguais aos do Censo. Toque em cada uma para abrir.</p>
   <details>
     <summary><svg class="icone"><use href="#i-regra"/></svg>Frequência diária e por componente<svg class="icone seta"><use href="#i-seta-baixo"/></svg></summary>
@@ -623,8 +676,9 @@ dialog.ampliar p{color:#fff;font-size:15px;margin:10px 0 0;text-align:center}
 </section>
 
 <section class="secao" id="ajuda" aria-labelledby="t-ajuda">
-  <div class="secao-cabeca"><span class="secao-num" aria-hidden="true">7</span><h2 id="t-ajuda">Precisa de ajuda?</h2></div>
+  <div class="secao-cabeca"><span class="secao-num" aria-hidden="true">8</span><h2 id="t-ajuda">Precisa de ajuda?</h2></div>
   <p class="lead">Procure o setor certo para cada assunto.</p>
+  <div class="faixa saiba"><svg class="icone"><use href="#i-info"/></svg><div><span class="faixa-titulo">Pela Zaori</span><p>Dúvidas e pedidos sobre a Zaori também podem ir por chamado, dentro da plataforma. Veja <a href="zaori.html#chamados">Chamados</a>.</p></div></div>
   <div class="contatos">
     <div class="cartao-contato">
       <span class="marca"><svg class="icone"><use href="#i-telefone"/></svg></span>
